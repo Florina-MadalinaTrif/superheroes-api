@@ -11,6 +11,6 @@ export class SuperheroesService {
   }
 
   getAll() {
-    return this.superheroes.sort((a, b) => a.humilityScore - b.humilityScore);
+    return this.superheroes.sort((a, b) => b.humilityScore - a.humilityScore);
   }
 }
