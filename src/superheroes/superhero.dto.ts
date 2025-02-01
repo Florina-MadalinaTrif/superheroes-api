@@ -7,7 +7,6 @@ export class SuperheroDto {
   @IsNotEmpty()
   superpower: string;
 
-  @IsInt()
   @Min(1)
   @Max(10)
   humilityScore: number;
